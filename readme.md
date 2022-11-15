@@ -33,3 +33,16 @@ tsc --init
 ```
 "outDir": "./build"
 ```
+
+
+
+5- install modules
+```
+npm i express 
+express-validator 
+jsonwebtoken 
+cookie-session 
+@types/cookie-session 
+@types/express 
+@types/jsonwebtoken
+```
