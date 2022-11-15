@@ -1,6 +1,6 @@
 {
   "name": "@myasticketing/common",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -10,7 +10,7 @@
   "scripts": {
     "clean": "del ./build/*",
     "build": "npm run clean && tsc",
-    "bup" : "git add . && git commit -m \"Update\" && npm version patch && npm rub build && npm publish"
+    "bup": "git add . && git commit -m \"Update\" && npm version patch && npm rub build && npm publish"
   },
   "keywords": [],
   "author": "",
